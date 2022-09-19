@@ -1,2 +1,2 @@
 # FEFclass
-Frontend Foxes School works
+Frontend Foxes School homeworks
