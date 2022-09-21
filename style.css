@@ -1,31 +1,4 @@
-body,
-html {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  background-color: #f1f1f1;
-
-}
-
-hr{
-  opacity: 0.2;
-}
-
-.container {
-  display: flex;
-  height: 100vh;
-}
-
-h1 {
-  color: rgb(50, 51, 52);
-  font-size: 25px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-p {
-  color: rgb(0, 0, 0);
-}
-
+/* Classes */
 .bg {
   background-image: url("https://daglihukukarabuluculuk.com/wp-content/uploads/2022/09/WhatsApp-Image-2022-08-12-at-9.00.44-PM.jpeg");
   background-repeat: no-repeat;
@@ -36,15 +9,16 @@ p {
 
 }
 
+.container {
+  display: flex;
+  height: 100vh;
+}
+
 .content {
   flex: 1;
   height: 100%;
   overflow: auto;
 
-}
-
-img {
-  max-width: 100%;
 }
 
 .image {
@@ -63,7 +37,7 @@ img {
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
-.row > .column {
+.row>.column {
   padding: 8px;
 }
 
@@ -126,4 +100,33 @@ img {
 .fa-github-square {
   background: #000;
   color: white;
+}
+
+/* Element Tags */
+
+body,
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #f1f1f1;
+
+}
+
+hr {
+  opacity: 0.2;
+}
+
+h1 {
+  color: rgb(50, 51, 52);
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+img {
+  max-width: 100%;
 }
